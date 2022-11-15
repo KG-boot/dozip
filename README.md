@@ -1,18 +1,39 @@
 # 🛠dozip
 인테리어 중개 플랫폼
+코로나 팬데믹 속에서 인테리어 시공 의뢰가 늘어나고 있다는 뉴스에서 주제를 착안하였고, 그와 관련된 두 가지 문제점을 발견하였다. 첫번째는 인테리어 시공 사기 사례가 증가하면서 업체에 대한 신뢰도가 떨어지고 있다는 것이고, 두번째는 인테리어 업체에 대한 정보 부족으로 고객이 업체 선정에 어려움이 있다는 것이었다. 이러한 문제점을 해결하기 위해 계약부터 정산까지 ‘두집’이 관리하여 시공 사기를 예방하고, 포트폴리오, 후기페이지 등을 통해 고객에게 인테리어 업체에 대한 정보를 제공하도록 하였다. 고객은 보다 질 좋은 인테리어 시공을 의뢰할 수 있으며, 업체는 더 많은 매출을 올릴 수 있도록 기획하였다. 
 
-<hr>
+
 <br>
 
-## 😀개발환경 및 기술
-### SpringBoot, MyBatis, IntelliJ, HTML5, CSS3, JavaScript
+## 🎈1. WBS
 
-## 😁메뉴얼
-### 관리자
-### 유저
-### 파트너스
+![image](https://user-images.githubusercontent.com/109561069/201949325-7ac09b70-7538-4298-8db3-4979f21070c5.png)
 
-## 😁 기능들
+## 🎈2. ERD
+![image](https://user-images.githubusercontent.com/109561069/201949121-4352104d-e1c3-4686-a595-4510c04fd30b.png)
+## 🎈3. USER FLOW
+![image](https://user-images.githubusercontent.com/109561069/201949414-88f52d03-8404-4c81-bf7d-174463c1d1a1.png)
+
+## 🎈4. 개발환경 및 기술
+### 개발환경
+
+Spring Boot 2.7.4, Gradle
+### 사용언어
+
+Java (JDK 11), HTML5, CSS3, JavaScript(ES6)
+
+
+### DataBase
+Oracle 21C
+### IDE
+IntelliJ IDEA 2022
+### API, 라이브러리
+KAKAO 지도 API, KAKAO 주소 API, JQuery, Ajax
+
+### 사용도구
+Sql Developer, Erdcloud, Notion
+
+## 🎈5. 기능들
 
  #### 1. 메인
     1. 회원관련 - 회원가입, 로그인
@@ -31,13 +52,6 @@
     8. 고객관리 - 고객문의, 고객후기
     9. MyPage - 내정보관리, 비밀번호 변경
 #### 3. 관리자
-    1. 등등
-
-
-
-
-
-## 😃특이사항
-### 팀프로젝트중입니다
-
+    1. 회원, 파트너스 정보관리
+    2. 전체 글 관리
 
